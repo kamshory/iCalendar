@@ -15,5 +15,6 @@ $cal->setCalScale('GREGORIAN')
 ->setTransp('TRANSPARENT')
 ->setUseUTC(true);
 
+header('Content-type: text/calendar');
 echo $cal->render();
 ?>
