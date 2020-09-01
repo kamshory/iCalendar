@@ -14,6 +14,7 @@ class Calendar{
     public function __construct()
     {
         // Constructor
+        $this->data = array();
         $this->dtstart = null;
         $this->dtend = null;
         $this->due = null;
