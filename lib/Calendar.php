@@ -205,6 +205,10 @@ class Calendar{
     {
         return $this->setNode('NAME', $name);
     }
+    public function setCategories($categories)
+    {
+        return $this->setNode('CATEGORIES', $categories);
+    }
     private function timeFrom($timestamp)
     {
         if($this->isAllDay)
